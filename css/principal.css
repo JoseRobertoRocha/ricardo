@@ -1731,3 +1731,45 @@ section,
   margin-bottom: 10px;  /* espaço abaixo do ícone */
   box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
+/*---------------contato--------------*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9ff;
+  text-align: center;
+  margin: 0;
+  padding: 50px 20px;
+}
+
+.contato h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.icones-contato {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icones-contato a {
+  font-size: 2.5rem;
+  color: #444;
+  transition: 0.3s ease;
+}
+
+.icones-contato a:hover {
+  transform: scale(1.2);
+}
+
+.icones-contato .whatsapp {
+  color: #25D366;
+}
+
+.icones-contato .instagram {
+  color: #C13584;
+}
+
+.icones-contato .youtube {
+  color: #FF0000;
+}
